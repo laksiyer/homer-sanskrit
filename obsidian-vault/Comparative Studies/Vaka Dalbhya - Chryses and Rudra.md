@@ -63,3 +63,7 @@ The counsellors explain that the king's offence against the priest over the anim
 - [Kāṭhaka Saṃhitā, Sthānaka 10, section 6](https://sa.wikisource.org/wiki/काठकसंहिता_(विस्वरः)/स्थानकम्_१०)
 - [Mahābhārata, Śalyaparvan 9.42](https://eternalraga.com/en/scriptures/mahabharata/shalya-parva/42)
 - [Greek Iliad, Book I](https://www.perseus.tufts.edu/hopper/text?doc=Hom.+Il.+1.8)
+## Full primary passages with English translation
+
+- [[Kāṭhaka 10.6 - Vaka Dālbhi - Sanskrit and English]]
+- [[Vāmana Purāṇa 39.25-35 - Vaka Dālbhi - Sanskrit and English]]
