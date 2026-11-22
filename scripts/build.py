@@ -75,7 +75,8 @@ def parse_passage(path: Path) -> dict:
     english = english_from_callout(body)
     # Editing Devanagari does not automatically update manually maintained IAST.
     return {"id":name,"title":title.split(" | ",1)[-1],"range":f"{book}.{first}–{last}",
-            "greek":greek,"roman":roman,"sanskrit":sanskrit,"iast":iast,"english":english}
+            "greek":greek,"roman":roman,"sanskrit":sanskrit,"iast":iast,"english":english,
+            "book":book,"first":first,"last":last}
 
 
 def parse_lexicon(path: Path) -> list[dict]:
