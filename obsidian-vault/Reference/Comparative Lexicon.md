@@ -158,3 +158,17 @@ Source: [Homer, Iliad 1.36](https://homer.johnhboyer.com/iliad/book/1/?loc=1.36)
 The first animals struck by Apollo's arrows are mules, not donkeys. Sanskrit **अश्वतरान्** reflects that distinction.
 
 Source: [Greek line 1.50](https://homer.johnhboyer.com/iliad/book/1/?loc=1.50)
+
+## Σμινθεῦ (Smintheu) → आखुपते
+
+**Status:** traditional semantic interpretation of a Greek cult epithet; NOT an established Greek–Sanskrit cognate  
+**Lines:** 1.39
+
+**Preferred Sanskrit:** आखुपतिः, vocative आखुपते. Homer addresses Apollo with Σμινθεῦ (*Smintheu*), the vocative of *Smintheus*. Ancient interpretations associate the epithet with σμίνθος (*sminthos*), “mouse,” although the historical derivation is disputed. “Lord of mice” is therefore an interpretive rendering, not a proved etymology. The name *Smintheu* remains in the Greek and its Roman transliteration.
+
+**Vedic comparison 1, TS 1.8.6 (Rudra):** **आखुस्ते रुद्र पशुस्तं जुषस्व।** (“The mouse is your animal, O Rudra; accept it.”) This is an explicit ritual association, not evidence of name cognacy or identity between Apollo and Rudra. [TS 1.8.6, text and traditional notes](https://vishvasa.github.io/vedAH_yajuH/taittirIyam/sArasvata-vibhAgaH/saMhitA/sarva-prastutiH/1/8_rAjasUyAdi/06_chAturmAsyeShu_sAkamedhaparva-tryambaka-haviH/).
+
+**Vedic comparison 2, TB 1.1.3 (Agni):** **अग्निर्देवेभ्यो निलायत । आखू रूपं कृत्वा । स पृथिवीं प्राविशत् ।** Agni hides from the gods, assumes a mouse's form, and enters the earth. The ensuing explanation includes **आखुकरीष**. This is an independent Vedic ritual motif; it does not establish an Apollo–Agni equation. [Taittirīya Brāhmaṇa 1.1.3, Sanskrit with commentary](https://vishvasa.github.io/vedAH_yajuH/taittirIyam/sArasvata-vibhAgaH/brAhmaNam/sarva-prastutiH/1/1_agnyAdheyAdi/03_deva-yajanArtha-sambhArAH/).
+
+**Greek source:** [Homer, Iliad 1.39 (Venetus A)](https://www.homermultitext.org/docs/venetus-a/12v/).
+
