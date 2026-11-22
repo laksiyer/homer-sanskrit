@@ -57,7 +57,7 @@ Preferred Sanskrit **दूरेहेतिः** (“one whose weapon reaches 
 
 **Compare**, without substituting in the running translation: **दूरेवधः**, TS **4.5.8**, Śrī Rudram: **नमो अग्रेवधाय च दूरेवधाय च**. This parallel highlights striking from afar, while **दूरेहेतिः** highlights the long reach of the missile itself. Neither expression is proven cognate to Greek ἑκηβόλος, nor does the comparison identify Apollo with a Vedic deity.
 
-Source: https://vishvasa.github.io/vedAH_yajuH/taittirIyam/sArasvata-vibhAgaH/saMhitA/sAyaNaH/3/4/07/
+Source: [Sāyaṇa commentary, TS 3.4.7](https://vishvasa.github.io/vedAH_yajuH/taittirIyam/sArasvata-vibhAgaH/saMhitA/sAyaNaH/3/4/07/)
 
 ## ἄποινα (apoina) → निष्क्रयधनम्
 
@@ -85,3 +85,76 @@ Greek πατρίς 'fatherland' is built on the Greek word for father, πατή�
 **Lines:** 1.41
 
 Greek αἴξ (gen. αἰγός) and Sanskrit अज are both 'goat'; their historical relationship is debated in modern reconstructions, particularly the differences between Greek *aig-* and Indo-Iranian *ag-*. We use **अजानाम्** for fidelity while marking the etymology as uncertain.
+
+## νυκτί (nykti) → नक्त् / नक्तमिव
+
+**Status:** established Indo-European cognate, night-word family  
+**Lines:** 1.47
+
+Greek *nykt-* and Vedic **नक्त्** preserve inherited night vocabulary. The Greek dative and Sanskrit adverb are not identical inflectional forms. The comparison is linguistic, not a mythological identification.
+
+**Source:** [Greek passage 1.47](https://homer.johnhboyer.com/iliad/book/1/?loc=1.47)
+
+## κύνας (kunas) → शुनः
+
+**Status:** established Indo-European cognate  
+**Lines:** 1.50
+
+Greek **κύων**, stem *kyn-*, and Sanskrit **श्वन्** (with accusative plural **शुनः** used in the prose) inherit the Indo-European word for dog.
+
+**Source:** [Greek passage 1.50](https://homer.johnhboyer.com/iliad/book/1/?loc=1.50)
+
+## ἐννῆμαρ (ennēmar) → नवाहानि
+
+**Status:** established cognate of numeral 'nine'; compound is a new equivalent  
+**Lines:** 1.53
+
+Greek **ἐννέα** and Sanskrit **नव** are inherited numeral cognates. Here both render a nine-day duration.
+
+**Source:** [Greek passage 1.53](https://homer.johnhboyer.com/iliad/book/1/?loc=1.53)
+
+## δεκάτῃ (dekatēi) → दशमेऽहनि
+
+**Status:** established cognate of numeral 'ten'  
+**Lines:** 1.54
+
+Greek **δέκα** and Sanskrit **दश** preserve the inherited numeral for ten; the Greek and Sanskrit ordinal constructions are separately inflected.
+
+**Source:** [Greek passage 1.54](https://homer.johnhboyer.com/iliad/book/1/?loc=1.54)
+
+## Ἥρη (Hērē) → हेरा
+
+**Status:** Greek name retained; Śacī/Indrāṇī is a limited functional comparison, NOT a cognate
+**Lines:** 1.55
+
+**Vedic comparison:** **शची / इन्द्राणी (Śacī / Indrāṇī)** as Indra's consort is a useful *role-based analogy* to Hera as Zeus's consort. There is no demonstrated common inherited name or general identity. Hera's decision to move Achilles to convene the assembly must be read in its Greek narrative context. Retain **हेरा** in the running Sanskrit translation. Homer calls her **λευκώλενος**, 'white-armed', rendered **श्वेतबाहुः**.
+
+Source: [Homer, Iliad 1.55 (Greek)](https://homer.johnhboyer.com/iliad/book/1/?loc=1.55)
+
+
+## Φοῖβος Ἀπόλλων (Phoibos Apollōn) → फोइबः अपोल्लोनः
+
+**Status:** Greek name retained; Rudra comparison is FUNCTIONAL / POETIC ONLY, NOT a cognate
+**Lines:** 1.36, 1.37, 1.42, 1.43, 1.48, 1.49, 1.50, 1.51, 1.52, 1.53
+
+**Vedic comparison:** **रुद्र (Rudra)**. Like the far-shooting Apollo, Vedic Rudra is a bow-bearing god whose weapons can afflict, and whose favor may preserve or heal. **Ṛgveda 2.33** invokes Rudra's bow and healing power; **TS 4.5.8** describes **दूरेवधः**. The closer epithet we chose, **दूरेहेतिः**, is attested in **TS 3.4.7.2**, where it refers to **Mṛtyu as a Gandharva**, not directly to Rudra; Sāyaṇa explains: **दूरेऽप्यवस्थितस्य प्रहारसाधनं हेतिर्यस्यासौ दूरेहेतिः।** None of this makes Apollo and Rudra identical or their names cognate. The narrative retains **अपोल्लोनः**.
+
+Sources: [Ṛgveda 2.33](https://rigveda-online.github.io/2/33.html), [Taittirīya Saṃhitā 4.5.8](https://yajurveda.sanatana.in/ts/anuvaka/4/5/8/), [Sāyaṇa on TS 3.4.7](https://vishvasa.github.io/vedAH_yajuH/taittirIyam/sArasvata-vibhAgaH/saMhitA/sAyaNaH/3/4/07/)
+
+## Λητώ (Lētō) → लेतोः
+
+**Status:** Greek name retained; no secure Vedic deity cognate
+**Lines:** 1.36
+
+**Vedic comparison:** **अदिति (Aditi)** may be compared *only in the broad maternal role* as a mother of gods, not as an etymological or mythological equivalent of Leto. Their mythic genealogies differ. Preserve **लेतोः** in the running translation.
+
+Source: [Homer, Iliad 1.36](https://homer.johnhboyer.com/iliad/book/1/?loc=1.36)
+
+## οὐρῆας (ourēas) → अश्वतरान्
+
+**Status:** semantic equivalent, no cognate claimed
+**Lines:** 1.50
+
+The first animals struck by Apollo's arrows are mules, not donkeys. Sanskrit **अश्वतरान्** reflects that distinction.
+
+Source: [Greek line 1.50](https://homer.johnhboyer.com/iliad/book/1/?loc=1.50)

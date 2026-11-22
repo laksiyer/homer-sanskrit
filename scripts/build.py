@@ -73,10 +73,14 @@ def parse_passage(path: Path) -> dict:
     sanskrit = section(body, "Sanskrit, Devanāgarī").strip()
     iast = section(body, "Sanskrit, IAST").strip()
     english = english_from_callout(body)
+    sources = []
+    if re.search(r"(?m)^## Sources\s*$", body):
+        for label, url in re.findall(r"\[([^]\n]+)\]\((https?://[^)\s]+)\)", section(body, "Sources")):
+            sources.append({"label":label,"url":url})
     # Editing Devanagari does not automatically update manually maintained IAST.
     return {"id":name,"title":title.split(" | ",1)[-1],"range":f"{book}.{first}–{last}",
             "greek":greek,"roman":roman,"sanskrit":sanskrit,"iast":iast,"english":english,
-            "book":book,"first":first,"last":last}
+            "book":book,"first":first,"last":last,"sources":sources}
 
 
 def parse_lexicon(path: Path) -> list[dict]:
@@ -93,7 +97,8 @@ def parse_lexicon(path: Path) -> list[dict]:
         if not st or not lines:
             raise ValueError(f"Status or lines missing for lexicon entry: {gk}")
         explanation = re.sub(r"(?m)^\*\*(?:Status|Lines):\*\*.*$", "", rest).strip()
-        entries.append({"greek":gk,"roman":roman,"sanskrit":sanskrit,
+        source_links = [{"label":label,"url":url} for label,url in re.findall(r"\[([^]\n]+)\]\((https?://[^)\s]+)\)", rest)]
+        entries.append({"sources":source_links,"greek":gk,"roman":roman,"sanskrit":sanskrit,
                         "status":st.group(1).strip(),"lines":lines.group(1).strip(),
                         "explain":explanation})
     return entries
