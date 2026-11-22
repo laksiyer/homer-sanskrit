@@ -174,18 +174,16 @@ Source: [Greek line 1.50](https://homer.johnhboyer.com/iliad/book/1/?loc=1.50)
 
 ## ἀργυρέοιο βιοῖο (argureoio bioio) → रजतधनुषः
 
-**Status:** Vedic poetic and religious parallel; not an established lexical cognate
+**Status:** Vedic poetic parallel, not a lexical cognate
 **Lines:** 1.49
 
-**Apollo's silver bow and Rudra's golden bow**
+Homer describes Apollo's silver bow (ἀργυρέοιο βιοῖο). The Atharvaveda describes Rudra bearing a golden bow:
 
-Homer describes Apollo's **silver bow** (ἀργυρέοιο βιοῖο) in *Iliad* 1.49. Our Sanskrit preserves this as **रजतधनुषः** (in context, **रजतधनुषो**).
+धनुर्बिभर्षि हरितं हिरण्ययं सहस्रघ्नि शतवधं शिखण्डिन् ।
+रुद्रस्येषुश्चरति देवहेतिस्तस्यै नमो यतमस्यां दिशीतः ॥
 
-Atharvaveda (Śaunaka) 11.2.12 describes Rudra carrying a **golden bow**:
+Atharvaveda (Śaunaka) 11.2.12.
 
-> धनुर्बिभर्षि हरितं हिरण्ययं सहस्रघ्नि शतवधं शिखण्डिन् ।
-> रुद्रस्येषुश्चरति देवहेतिस्तस्यै नमो यतमस्यां दिशीतः ॥
+Both Apollo and Rudra are formidable divine archers. The comparison is poetic and theological, not an established linguistic cognate. The Sanskrit translation retains रजतधनुः because Homer's bow is silver.
 
-Both Apollo and Rudra are depicted as formidable divine archers. Homer's bow is silver; Rudra's in this Atharvavedic verse is golden. This is a **poetic and religious comparison**, not an assertion that Apollo and Rudra are identical or that the epithets are inherited cognates.
-
-Sources: [Homer, Iliad 1.49](https://homer.johnhboyer.com/iliad/book/1/?loc=1.49) · [Atharvaveda (Śaunaka) 11.2](https://www.vedicsamhita.in/vedas/atharvaveda/11/2)
+**Sources**: [Homer, Iliad 1.49](https://homer.johnhboyer.com/iliad/book/1/?loc=1.49) · [Atharvaveda (Śaunaka) 11.2](https://www.vedicsamhita.in/vedas/atharvaveda/11/2)
