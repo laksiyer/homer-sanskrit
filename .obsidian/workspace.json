@@ -183,9 +183,11 @@
   },
   "active": "f7276b96d1679e46",
   "lastOpenFiles": [
+    "README-FIX.txt",
+    "FIX-BOW-NOTE.bat",
+    "scripts/fix_bow_note.py",
     "README.txt",
     "fix-bow-note.py",
-    "FIX-BOW-NOTE.bat",
     "obsidian-vault/Reference/Comparative Lexicon.md",
     "INSTALL.md",
     "INSTALL-SMINTHEUS.md",
