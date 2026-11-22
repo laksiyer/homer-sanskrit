@@ -175,6 +175,8 @@ Source: [Greek line 1.50](https://homer.johnhboyer.com/iliad/book/1/?loc=1.50)
 
 
 ## ἀργυρέοιο βιοῖο · रजतधनुषः · Iliad 1.49
+**Status:** Vedic poetic parallel, not a cognate
+**Lines:** 1.49
 
 **Homeric context:** Apollo’s **silver bow**, Greek **ἀργυρέοιο βιοῖο**, is represented in Sanskrit by **रजतधनुषः**.
 
