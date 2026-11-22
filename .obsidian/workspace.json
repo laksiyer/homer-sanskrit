@@ -187,6 +187,8 @@
   },
   "active": "f7276b96d1679e46",
   "lastOpenFiles": [
+    "INSTALL-WORD-LINKS.bat",
+    "scripts/install_word_links.py",
     "README-FIX.txt",
     "FIX-BOW-NOTE.bat",
     "scripts/fix_bow_note.py",
@@ -203,7 +205,6 @@
     "build-website.bat",
     "site/template.html",
     "scripts/build.py",
-    "scripts",
     "obsidian-vault/Iliad/Book-01/1-1-7.md"
   ]
 }
