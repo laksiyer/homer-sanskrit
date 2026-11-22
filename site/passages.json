@@ -649,6 +649,95 @@
         "रजतधनुषः"
       ],
       "explain": "Homer describes Apollo's silver bow (ἀργυρέοιο βιοῖο). The Atharvaveda describes Rudra bearing a golden bow:\n\nधनुर्बिभर्षि हरितं हिरण्ययं सहस्रघ्नि शतवधं शिखण्डिन् ।\nरुद्रस्येषुश्चरति देवहेतिस्तस्यै नमो यतमस्यां दिशीतः ॥\n\nAtharvaveda (Śaunaka) 11.2.12.\n\nBoth Apollo and Rudra are formidable divine archers. The comparison is poetic and theological, not an established linguistic cognate. The Sanskrit translation retains रजतधनुः because Homer's bow is silver.\n\n**Sources**: [Homer, Iliad 1.49](https://homer.johnhboyer.com/iliad/book/1/?loc=1.49) · [Atharvaveda (Śaunaka) 11.2](https://www.vedicsamhita.in/vedas/atharvaveda/11/2)"
+    },
+    {
+      "sources": [
+        {
+          "label": "Greek source",
+          "url": "https://primarytexts.org/homer/iliad/1/"
+        }
+      ],
+      "greek": "Διός",
+      "roman": "Dios",
+      "sanskrit": "दिवः",
+      "status": "established cognate",
+      "lines": "1.63, 1.86",
+      "forms": [
+        "दिवः"
+      ],
+      "explain": "Greek *Diós* and Vedic *Diváḥ* are historically related sky-god name forms. These occurrences refer to Zeus specifically. [Greek source](https://primarytexts.org/homer/iliad/1/)."
+    },
+    {
+      "sources": [
+        {
+          "label": "Greek source",
+          "url": "https://primarytexts.org/homer/iliad/1/"
+        }
+      ],
+      "greek": "νήεσσι",
+      "roman": "nēessi",
+      "sanskrit": "नौकानाम्",
+      "status": "established cognate",
+      "lines": "1.71, 1.89",
+      "forms": [
+        "नौः",
+        "नौकानाम्"
+      ],
+      "explain": "Greek *naus* and Sanskrit *nau-* descend from the same inherited boat term. The Sanskrit prose form नौकानाम् is a derivative, not an identical Greek inflection. [Greek source](https://primarytexts.org/homer/iliad/1/)."
+    },
+    {
+      "sources": [
+        {
+          "label": "Greek source",
+          "url": "https://primarytexts.org/homer/iliad/1/"
+        }
+      ],
+      "greek": "θύγατρα",
+      "roman": "thugatra",
+      "sanskrit": "दुहितरम्",
+      "status": "established cognate",
+      "lines": "1.95",
+      "forms": [
+        "दुहितरं",
+        "दुहितरम्"
+      ],
+      "explain": "Greek *thugatēr* and Sanskrit *duhitṛ* are established inherited kinship cognates. [Greek source](https://primarytexts.org/homer/iliad/1/)."
+    },
+    {
+      "sources": [
+        {
+          "label": "Sāyaṇa text",
+          "url": "https://vishvasa.github.io/vedAH_yajuH/taittirIyam/sArasvata-vibhAgaH/saMhitA/sAyaNaH/3/4/07/"
+        }
+      ],
+      "greek": "ἑκηβόλος",
+      "roman": "hekēbolos",
+      "sanskrit": "दूरेहेतिः",
+      "status": "Vedic poetic parallel, not a lexical cognate",
+      "lines": "1.96",
+      "forms": [
+        "दूरेहेतिः",
+        "दूरेहेतेः"
+      ],
+      "explain": "Our agreed Sanskrit rendering for Apollo's far-shooting epithet is **दूरेहेतिः**. Compare TS 3.4.7.2 and Sāyaṇa's explanation: दूरेऽप्यवस्थितस्य प्रहारसाधनं हेतिर्यस्यासौ दूरेहेतिः। The original TS referent is not Apollo. [Sāyaṇa text](https://vishvasa.github.io/vedAH_yajuH/taittirIyam/sArasvata-vibhAgaH/saMhitA/sAyaNaH/3/4/07/)."
+    },
+    {
+      "sources": [
+        {
+          "label": "Greek source",
+          "url": "https://primarytexts.org/homer/iliad/1/"
+        }
+      ],
+      "greek": "μῆνιν",
+      "roman": "mēnin",
+      "sanskrit": "मन्युम्",
+      "status": "chosen Vedic semantic rendering; cognacy disputed",
+      "lines": "1.75",
+      "forms": [
+        "मन्युं",
+        "मन्युम्"
+      ],
+      "explain": "Greek μῆνις is translated as Vedic मन्यु in the running prose. Vedic मेनि belongs only in a cautious philological footnote; its relationship to Greek μῆνις is unproven. [Greek source](https://primarytexts.org/homer/iliad/1/)."
     }
   ]
 }
