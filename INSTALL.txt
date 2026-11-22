@@ -1,0 +1,13 @@
+HOMER SANSKRIT - DŪREHETIḤ + SĀYAṆA UPDATE
+
+Extract into F:\github\homer-sanskrit and allow replacement of these two Obsidian Markdown files. Make a backup if you edited them.
+
+Changed:
+- obsidian-vault/Iliad/Book-01/1-8-21.md
+- obsidian-vault/Reference/Comparative Lexicon.md
+
+Then run build-website.bat, review site/index.html, commit and push in GitHub Desktop.
+
+The Vedic source is TS 3.4.7.2. Sayana quotation verified at https://vishvasa.github.io/vedAH_yajuH/taittirIyam/sArasvata-vibhAgaH/saMhitA/sAyaNaH/3/4/07/
+
+Note: prior Iliad 1.22-42 update must also be installed to retain those new lines; this patch only adjusts the Apollo epithet and lexicon.
