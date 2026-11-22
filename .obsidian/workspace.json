@@ -187,6 +187,10 @@
   },
   "active": "f7276b96d1679e46",
   "lastOpenFiles": [
+    "obsidian-vault/Reference/Comparative Lexicon.md.wordlinks-backup",
+    "scripts/build.py.wordlinks-backup",
+    "site/template.html.wordlinks-backup",
+    "README-FIX.md",
     "INSTALL-WORD-LINKS.bat",
     "scripts/install_word_links.py",
     "README-FIX.txt",
@@ -202,9 +206,6 @@
     "obsidian-vault/Iliad/Book-01/1-22-42.md",
     "INSTALL.txt",
     "UPGRADE-README.md",
-    "build-website.bat",
-    "site/template.html",
-    "scripts/build.py",
     "obsidian-vault/Iliad/Book-01/1-1-7.md"
   ]
 }

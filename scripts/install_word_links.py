@@ -86,7 +86,19 @@ def main():
         print('Word-link feature already installed. No changes made.');return
     template=replace_once(template,'</style>',CSS+'\n</style>','CSS')
     template=replace_once(template,'function chooseLine(n){',JS+'\nfunction chooseLine(n){','JavaScript')
-    template=replace_once(template,'  renderNotes();\n }','  renderNotes();\n  decorateSanskrit();\n }','render hook') if '  renderNotes();\n }' in template else replace_once(template,' renderNotes();\n }',' renderNotes();\n decorateSanskrit();\n }','render hook')
+    # Match the actual render() function regardless of its indentation and spacing.
+    render_start=template.find('function render(){')
+    render_end=template.find('function renderNotes(){',render_start)
+    if render_start < 0 or render_end < 0:
+        raise RuntimeError('Cannot locate render() and renderNotes() in website template; no files changed')
+    render_block=template[render_start:render_end]
+    hits=list(re.finditer(r'(?m)^([ \t]*)renderNotes\(\);[ \t]*$',render_block))
+    if len(hits)!=1:
+        raise RuntimeError(f'Could not identify render() note hook (found {len(hits)}); no files changed')
+    hook=hits[0]
+    indent=hook.group(1)
+    render_block=render_block[:hook.end()]+f'\n{indent}decorateSanskrit();'+render_block[hook.end():]
+    template=template[:render_start]+render_block+template[render_end:]
     builder=replace_once(builder,'        explanation = re.sub(r"(?m)^\\*\\*(?:Status|Lines):\\*\\*.*$", "", rest).strip()',
         '        forms_match = re.search(r"(?m)^\\*\\*Forms:\\*\\*\\s*(.+)$", rest)\n'
         '        forms = [s.strip() for s in forms_match.group(1).split(",")] if forms_match else []\n'

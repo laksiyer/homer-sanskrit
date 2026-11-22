@@ -96,10 +96,13 @@ def parse_lexicon(path: Path) -> list[dict]:
         lines = re.search(r"\*\*Lines:\*\*\s*(.+)", rest)
         if not st or not lines:
             raise ValueError(f"Status or lines missing for lexicon entry: {gk}")
-        explanation = re.sub(r"(?m)^\*\*(?:Status|Lines):\*\*.*$", "", rest).strip()
+        forms_match = re.search(r"(?m)^\*\*Forms:\*\*\s*(.+)$", rest)
+        forms = [s.strip() for s in forms_match.group(1).split(",")] if forms_match else []
+        explanation = re.sub(r"(?m)^\*\*(?:Status|Lines|Forms):\*\*.*$", "", rest).strip()
+        # HOMER_SANSKRIT_WORD_LINKS_V1
         source_links = [{"label":label,"url":url} for label,url in re.findall(r"\[([^]\n]+)\]\((https?://[^)\s]+)\)", rest)]
         entries.append({"sources":source_links,"greek":gk,"roman":roman,"sanskrit":sanskrit,
-                        "status":st.group(1).strip(),"lines":lines.group(1).strip(),
+                        "status":st.group(1).strip(),"lines":lines.group(1).strip(),"forms":forms,
                         "explain":explanation})
     return entries
 

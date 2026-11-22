@@ -32,6 +32,12 @@ main, .reading-grid, .panel, .disclosure, .lex-grid, .lex-entry,
   .reading-grid { grid-template-columns: minmax(0, 1fr); }
   main { padding-inline: 12px; }
 }
+/* HOMER_SANSKRIT_WORD_LINKS_V1 */
+.sanskrit-link {font:inherit;color:#245d69;background:transparent;padding:0 1px;border:0;border-bottom:2px dotted #9c732e;border-radius:0;cursor:pointer;text-decoration:none;line-height:inherit}
+.sanskrit-link:hover,.sanskrit-link:focus-visible {color:#143944;background:#f9efcc;border-bottom-style:solid;outline-offset:3px}
+.sanskrit-link:focus-visible{outline:2px solid #8a5616}
+@media(prefers-color-scheme:dark){.sanskrit-link{color:#b7e6ed;border-bottom-color:#f1c778}.sanskrit-link:hover,.sanskrit-link:focus-visible{color:#fff;background:#3c4e52}}
+
 </style>
 </head>
 <body>
@@ -68,8 +74,64 @@ function render(){
  document.querySelectorAll('[data-g]').forEach(el=>el.setAttribute('aria-pressed',String(el.dataset.g===greekMode)));
  document.querySelectorAll('[data-s]').forEach(el=>el.setAttribute('aria-pressed',String(el.dataset.s===sanskritMode)));
  renderNotes();
+ decorateSanskrit();
 }
 function renderNotes(){const p=data.passages[passageIndex],query=byId('lex-search').value.trim().toLocaleLowerCase();let notes=visibleNotes(p);if(activeLine!==null)notes=notes.filter(n=>lineRefs(n.lines).includes(`${p.book}.${activeLine}`));if(query)notes=notes.filter(n=>[n.greek,n.roman,n.sanskrit,n.status,n.explain].join(' ').toLocaleLowerCase().includes(query));const root=byId('notes');root.replaceChildren();text(byId('lex-description'),activeLine===null?'Comparative notes associated with this passage. Established cognates are distinguished from disputed and semantic equivalents.':`Showing notes for Iliad ${p.book}.${activeLine}. Select the line again or use “Show all passage notes” to reset.`);if(!notes.length){root.append(text(Object.assign(document.createElement('div'),{className:'empty'}),'No matching notes. Change the search or clear the line selection.'));return;}notes.forEach(n=>{const entry=document.createElement('article');entry.className='lex-entry';const h=document.createElement('h3');text(h,`${n.greek} (${n.roman}) → ${n.sanskrit}`);const s=document.createElement('div');s.className='status';text(s,`${n.status} · Iliad ${n.lines}`);const p=document.createElement('p');text(p,n.explain.replace(/\*\*/g,'').replace(/\[([^\]]+)\]\(https?:\/\/[^)]+\)/g,'$1'));entry.append(h,s,p);if(n.sources&&n.sources.length){const links=document.createElement('div');links.className='source-links';links.style.marginTop='12px';appendSources(links,n.sources);entry.append(links);}root.append(entry);});}
+/* HOMER_SANSKRIT_WORD_LINKS_V1 */
+function decorateSanskrit(){
+ const root=byId('sanskrit');
+ if(sanskritMode!=='deva')return;
+ const p=data.passages[passageIndex];
+ const candidates=[];
+ visibleNotes(p).forEach(note=>{
+   const index=data.notes.indexOf(note);
+   const forms=[note.sanskrit,...(note.forms||[])];
+   forms.forEach(form=>{
+     form=String(form).trim();
+     if(!form || !/[\u0900-\u097f]/.test(form))return;
+     // Explicit inflected forms only; avoid guessing across sandhi boundaries.
+     candidates.push({form,index});
+   });
+ });
+ candidates.sort((a,b)=>b.form.length-a.form.length);
+ const source=root.textContent;
+ const result=document.createDocumentFragment();
+ let pos=0;
+ while(pos<source.length){
+   let selected=null;
+   for(const candidate of candidates){
+     if(!source.startsWith(candidate.form,pos))continue;
+     // Disallow matches inside a longer unlisted Devanagari word.
+     const before=pos?source[pos-1]:'';
+     const after=source[pos+candidate.form.length]||'';
+     if(/[\u0900-\u097f]/.test(before)||/[\u0900-\u097f]/.test(after))continue;
+     selected=candidate;break;
+   }
+   if(selected){
+     const button=document.createElement('button');
+     button.type='button';button.className='sanskrit-link';
+     button.dataset.lexIndex=String(selected.index);
+     button.textContent=selected.form;
+     button.title='Open the comparative lexicon note';
+     button.setAttribute('aria-label',`Open lexicon note for ${selected.form}`);
+     result.append(button);pos+=selected.form.length;
+   }else{
+     let next=pos+1;
+     while(next<source.length && !candidates.some(c=>source.startsWith(c.form,next)))next++;
+     result.append(document.createTextNode(source.slice(pos,next)));pos=next;
+   }
+ }
+ root.replaceChildren(result);
+}
+byId('sanskrit').addEventListener('click',event=>{
+ const button=event.target.closest('.sanskrit-link');if(!button)return;
+ const note=data.notes[Number(button.dataset.lexIndex)];if(!note)return;
+ activeLine=null;
+ byId('lex-search').value=note.greek;
+ renderNotes();
+ byId('lex-title').scrollIntoView({behavior:'smooth',block:'start'});
+});
+
 function chooseLine(n){activeLine=activeLine===n?null:n;render();byId('lex-title').scrollIntoView({behavior:'smooth',block:'start'});}
 document.addEventListener('click',event=>{const btn=event.target.closest('button');if(btn){if(btn.dataset.index!==undefined){passageIndex=Number(btn.dataset.index);activeLine=null;byId('lex-search').value='';history.replaceState(null,'','#'+data.passages[passageIndex].id);render();return;}if(btn.dataset.g){greekMode=btn.dataset.g;render();return;}if(btn.dataset.s){sanskritMode=btn.dataset.s;render();return;}if(btn.id==='clear-filter'){activeLine=null;byId('lex-search').value='';render();return;}}const row=event.target.closest('.greek-line[data-has-notes="true"]');if(row)chooseLine(Number(row.dataset.line));});
 byId('greek').addEventListener('keydown',event=>{if((event.key==='Enter'||event.key===' ')&&event.target.matches('.greek-line[data-has-notes="true"]')){event.preventDefault();chooseLine(Number(event.target.dataset.line));}});

@@ -176,6 +176,7 @@ Source: [Greek line 1.50](https://homer.johnhboyer.com/iliad/book/1/?loc=1.50)
 
 **Status:** Vedic poetic parallel, not a lexical cognate
 **Lines:** 1.49
+**Forms:** रजतधनुषो, रजतधनुषः
 
 Homer describes Apollo's silver bow (ἀργυρέοιο βιοῖο). The Atharvaveda describes Rudra bearing a golden bow:
 

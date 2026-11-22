@@ -1,9 +1,0 @@
-Homer in Sanskrit: card text overflow fix
-
-1. Extract this ZIP to F:\github\homer-sanskrit\.
-2. Allow replacement of site\template.html only.
-3. Run build-website.bat to regenerate site\index.html.
-4. Refresh the browser using Ctrl+F5.
-5. Commit and Push origin in GitHub Desktop.
-
-This ZIP does not overwrite Obsidian manuscripts, translations, or lexicon entries.
