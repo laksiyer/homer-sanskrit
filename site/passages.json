@@ -469,6 +469,24 @@
       "status": "traditional semantic interpretation of a Greek cult epithet; NOT an established Greek–Sanskrit cognate",
       "lines": "1.39",
       "explain": "**Preferred Sanskrit:** आखुपतिः, vocative आखुपते. Homer addresses Apollo with Σμινθεῦ (*Smintheu*), the vocative of *Smintheus*. Ancient interpretations associate the epithet with σμίνθος (*sminthos*), “mouse,” although the historical derivation is disputed. “Lord of mice” is therefore an interpretive rendering, not a proved etymology. The name *Smintheu* remains in the Greek and its Roman transliteration.\n\n**Vedic comparison 1, TS 1.8.6 (Rudra):** **आखुस्ते रुद्र पशुस्तं जुषस्व।** (“The mouse is your animal, O Rudra; accept it.”) This is an explicit ritual association, not evidence of name cognacy or identity between Apollo and Rudra. [TS 1.8.6, text and traditional notes](https://vishvasa.github.io/vedAH_yajuH/taittirIyam/sArasvata-vibhAgaH/saMhitA/sarva-prastutiH/1/8_rAjasUyAdi/06_chAturmAsyeShu_sAkamedhaparva-tryambaka-haviH/).\n\n**Vedic comparison 2, TB 1.1.3 (Agni):** **अग्निर्देवेभ्यो निलायत । आखू रूपं कृत्वा । स पृथिवीं प्राविशत् ।** Agni hides from the gods, assumes a mouse's form, and enters the earth. The ensuing explanation includes **आखुकरीष**. This is an independent Vedic ritual motif; it does not establish an Apollo–Agni equation. [Taittirīya Brāhmaṇa 1.1.3, Sanskrit with commentary](https://vishvasa.github.io/vedAH_yajuH/taittirIyam/sArasvata-vibhAgaH/brAhmaNam/sarva-prastutiH/1/1_agnyAdheyAdi/03_deva-yajanArtha-sambhArAH/).\n\n**Greek source:** [Homer, Iliad 1.39 (Venetus A)](https://www.homermultitext.org/docs/venetus-a/12v/)."
+    },
+    {
+      "sources": [
+        {
+          "label": "Homer, *Iliad* 1.49",
+          "url": "https://homer.johnhboyer.com/iliad/book/1/?loc=1.49"
+        },
+        {
+          "label": "Atharvaveda (Śaunaka) 11.2",
+          "url": "https://www.vedicsamhita.in/vedas/atharvaveda/11/2"
+        }
+      ],
+      "greek": "ἀργυρέοιο βιοῖο",
+      "roman": "argureoio bioio",
+      "sanskrit": "रजतधनुषः",
+      "status": "Vedic poetic parallel, not a cognate",
+      "lines": "1.49",
+      "explain": "**Homeric context:** Apollo’s **silver bow**, Greek **ἀργυρέοιο βιοῖο**, is represented in Sanskrit by **रजतधनुषः**.\n\n**Vedic parallel:** Atharvaveda (Śaunaka) 11.2.12 describes Rudra’s **golden bow**, **धनुर्बिभर्षि हरितं हिरण्ययम्**, and his divine arrow, **रुद्रस्येषुश्चरति देवहेतिः**. Both Apollo and Rudra are depicted as powerful divine archers; the bow is silver in Homer and golden in the Atharvaveda.\n\n\n\nSources: [Homer, *Iliad* 1.49](https://homer.johnhboyer.com/iliad/book/1/?loc=1.49) · [Atharvaveda (Śaunaka) 11.2](https://www.vedicsamhita.in/vedas/atharvaveda/11/2)"
     }
   ]
 }

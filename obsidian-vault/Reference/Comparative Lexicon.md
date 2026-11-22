@@ -174,7 +174,7 @@ Source: [Greek line 1.50](https://homer.johnhboyer.com/iliad/book/1/?loc=1.50)
 
 
 
-## ἀργυρέοιο βιοῖο · रजतधनुषः · Iliad 1.49
+## ἀργυρέοιο βιοῖο (argureoio bioio) → रजतधनुषः
 **Status:** Vedic poetic parallel, not a cognate
 **Lines:** 1.49
 
