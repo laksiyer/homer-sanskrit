@@ -6,6 +6,32 @@
 <title>Homer in Sanskrit | होमेरकाव्यम्</title>
 <style>
 :root{color-scheme:light;--bg:#f7f6f2;--paper:#fff;--ink:#1b2c35;--muted:#5d6a70;--line:#d9e0df;--accent:#315e6c;--soft:#eaf1f0;--gold:#ad7b34;--focus:#a55f0a}*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.65 Georgia,'Noto Serif Devanagari',serif}header{background:#203842;color:#fff;padding:31px max(22px,calc((100vw - 1120px)/2))}header h1{font-size:clamp(27px,4vw,39px);line-height:1.25;margin:4px 0 5px}header p{margin:0;color:#dae8e8}.eyebrow{font:11px/1.5 Arial,sans-serif;letter-spacing:.17em;text-transform:uppercase;color:#ebc887}main{max-width:1120px;margin:0 auto;padding:24px 20px 70px}a{color:var(--accent)}button,input{font:inherit}button{border:1px solid var(--line);border-radius:8px;background:var(--paper);color:var(--ink);padding:8px 12px;cursor:pointer}button:hover{border-color:#8ea7aa}button[aria-pressed=true]{background:var(--accent);border-color:var(--accent);color:white}button:focus-visible,input:focus-visible,summary:focus-visible{outline:3px solid var(--focus);outline-offset:3px}.small{font:12px/1.6 Arial,sans-serif;color:var(--muted)}.topbar{display:flex;align-items:flex-start;justify-content:space-between;flex-wrap:wrap;gap:15px;margin-bottom:15px}.passage-tabs{display:flex;flex-wrap:wrap;gap:8px}.controls{display:flex;gap:25px;flex-wrap:wrap;margin-bottom:18px;padding:14px 0;border-block:1px solid var(--line)}.control-label{font:12px Arial,sans-serif;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin:0 0 8px}.toggle{display:flex;gap:6px;flex-wrap:wrap}.reading-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:18px}.panel{background:var(--paper);border:1px solid var(--line);border-radius:12px;padding:22px;min-width:0}.panel h2{margin:0 0 10px;font-size:21px}.panel .kicker{font:12px Arial,sans-serif;letter-spacing:.05em;color:var(--muted);text-transform:uppercase}.greek-line{display:grid;grid-template-columns:30px minmax(0,1fr);gap:8px;padding:4px;border-radius:5px;line-height:1.9}.greek-line[data-has-notes="true"]{cursor:pointer}.greek-line[data-has-notes="true"]:hover,.greek-line.selected{background:var(--soft)}.greek-line:focus-visible{outline:2px solid var(--focus)}.line-no{font:12px Arial,sans-serif;color:var(--muted);padding-top:10px}.line-text{overflow-wrap:anywhere}.sanskrit{white-space:pre-line;font-size:19px;line-height:2.05}.sanskrit.iast{font-size:17px}.disclosure{margin-top:17px;background:var(--paper);border:1px solid var(--line);border-radius:12px;padding:15px 19px}.disclosure summary{cursor:pointer;font-weight:bold}.disclosure p{white-space:pre-line;margin:12px 0}.section-title{margin:28px 0 10px;font-size:22px}.lex-tools{display:flex;align-items:center;flex-wrap:wrap;gap:8px;margin-bottom:12px}.lex-tools input{background:var(--paper);border:1px solid var(--line);border-radius:8px;padding:9px 12px;min-width:220px;flex:1}.lex-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(265px,1fr));gap:12px}.lex-entry{background:var(--paper);border:1px solid var(--line);border-radius:10px;padding:16px}.lex-entry h3{margin:0;font-size:19px;overflow-wrap:anywhere}.lex-entry .status{color:#855b1b;font:12px Arial,sans-serif;margin:4px 0 9px}.lex-entry p{font-size:14px;margin:0;white-space:pre-line}.lex-entry button{margin-top:10px;font:12px Arial,sans-serif}.foot{margin-top:31px;border-top:1px solid var(--line);padding-top:17px;font:13px/1.8 Arial,sans-serif;color:var(--muted)}.empty{padding:18px;border:1px dashed var(--line);border-radius:8px;color:var(--muted)}@media(max-width:760px){.reading-grid{grid-template-columns:1fr}.panel{padding:17px}}@media(prefers-color-scheme:dark){:root{color-scheme:dark;--bg:#101a1e;--paper:#1b2b31;--ink:#f1f3f2;--muted:#c2ccce;--line:#415258;--accent:#407a8a;--soft:#30464d}header{background:#14292f}.lex-entry .status{color:#e3bb75}}
+
+/* Text-containment fix (Nov 2026): let multilingual text wrap in its own card. */
+html, body { max-width: 100%; overflow-x: clip; }
+main, .reading-grid, .panel, .disclosure, .lex-grid, .lex-entry,
+.greek-line, .line-text, .sanskrit, #greek, #sanskrit, #english,
+#notes, .lex-entry h3, .lex-entry p, .topbar, .topbar > * {
+  min-width: 0;
+  max-width: 100%;
+}
+.panel, .disclosure, .lex-entry, .line-text, .sanskrit,
+.disclosure p, .lex-entry h3, .lex-entry p, .small, .foot,
+#description, #lex-description {
+  overflow-wrap: anywhere;
+  word-wrap: break-word;
+}
+.greek-line { grid-template-columns: 30px minmax(0, 1fr); }
+.line-text, .sanskrit, .disclosure p, .lex-entry p {
+  white-space: pre-line;
+  overflow: visible;
+}
+.lex-grid { grid-template-columns: repeat(auto-fit, minmax(min(100%, 265px), 1fr)); }
+.lex-tools input { min-width: 0; }
+@media (max-width: 760px) {
+  .reading-grid { grid-template-columns: minmax(0, 1fr); }
+  main { padding-inline: 12px; }
+}
 </style>
 </head>
 <body>
