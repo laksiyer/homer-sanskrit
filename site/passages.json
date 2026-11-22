@@ -221,6 +221,144 @@
           "url": "https://atlas.perseus.tufts.edu/library/urn:cts:greekLit:tlg0012.tlg001/"
         }
       ]
+    },
+    {
+      "id": "1-61-83",
+      "title": "Achilles proposes consultation; Calchas seeks protection",
+      "range": "1.61–83",
+      "greek": [
+        "εἰ δὴ ὁμοῦ πόλεμός τε δαμᾷ καὶ λοιμὸς Ἀχαιούς·",
+        "ἀλλʼ ἄγε δή τινα μάντιν ἐρείομεν ἢ ἱερῆα",
+        "ἢ καὶ ὀνειροπόλον, καὶ γάρ τʼ ὄναρ ἐκ Διός ἐστιν,",
+        "ὅς κʼ εἴποι ὅ τι τόσσον ἐχώσατο Φοῖβος Ἀπόλλων,",
+        "εἴτʼ ἄρʼ ὅ γʼ εὐχωλῆς ἐπιμέμφεται ἠδʼ ἑκατόμβης,",
+        "αἴ κέν πως ἀρνῶν κνίσης αἰγῶν τε τελείων",
+        "βούλεται ἀντιάσας ἡμῖν ἀπὸ λοιγὸν ἀμῦναι.",
+        "ἤτοι ὅ γʼ ὣς εἰπὼν κατʼ ἄρʼ ἕζετο· τοῖσι δʼ ἀνέστη",
+        "Κάλχας Θεστορίδης οἰωνοπόλων ὄχʼ ἄριστος,",
+        "ὃς ᾔδη τά τʼ ἐόντα τά τʼ ἐσσόμενα πρό τʼ ἐόντα,",
+        "καὶ νήεσσʼ ἡγήσατʼ Ἀχαιῶν Ἴλιον εἴσω",
+        "ἣν διὰ μαντοσύνην, τήν οἱ πόρε Φοῖβος Ἀπόλλων·",
+        "ὅ σφιν ἐὺ φρονέων ἀγορήσατο καὶ μετέειπεν·",
+        "ὦ Ἀχιλεῦ κέλεαί με Διῒ φίλε μυθήσασθαι",
+        "μῆνιν Ἀπόλλωνος ἑκατηβελέταο ἄνακτος·",
+        "τοὶ γὰρ ἐγὼν ἐρέω· σὺ δὲ σύνθεο καί μοι ὄμοσσον",
+        "ἦ μέν μοι πρόφρων ἔπεσιν καὶ χερσὶν ἀρήξειν·",
+        "ἦ γὰρ ὀΐομαι ἄνδρα χολωσέμεν, ὃς μέγα πάντων",
+        "Ἀργείων κρατέει καί οἱ πείθονται Ἀχαιοί·",
+        "κρείσσων γὰρ βασιλεὺς ὅτε χώσεται ἀνδρὶ χέρηϊ·",
+        "εἴ περ γάρ τε χόλον γε καὶ αὐτῆμαρ καταπέψῃ,",
+        "ἀλλά τε καὶ μετόπισθεν ἔχει κότον, ὄφρα τελέσσῃ,",
+        "ἐν στήθεσσιν ἑοῖσι· σὺ δὲ φράσαι εἴ με σαώσεις."
+      ],
+      "roman": [
+        "ei dē omou polemos te dama kai loimos akhaious·",
+        "allʼ age dē tina mantin ereiomen ē ierēa",
+        "ē kai oneiropolon, kai gar tʼ onar ek dios estin,",
+        "os kʼ eipoi o ti tosson ekhōsato phoibos apollōn,",
+        "eitʼ arʼ o gʼ eukhōlēs epimemphetai ēdʼ ekatombēs,",
+        "ai ken pōs arnōn knisēs aigōn te teleiōn",
+        "bouletai antiasas ēmin apo loigon amunai.",
+        "ētoi o gʼ ōs eipōn katʼ arʼ ezeto· toisi dʼ anestē",
+        "kalkhas thestoridēs oiōnopolōn okhʼ aristos,",
+        "os eidē ta tʼ eonta ta tʼ essomena pro tʼ eonta,",
+        "kai nēessʼ ēgēsatʼ akhaiōn ilion eisō",
+        "ēn dia mantosunēn, tēn oi pore phoibos apollōn·",
+        "o sphin eu phroneōn agorēsato kai meteeipen·",
+        "ō akhileu keleai me dii phile muthēsasthai",
+        "mēnin apollōnos ekatēbeletao anaktos·",
+        "toi gar egōn ereō· su de suntheo kai moi omosson",
+        "ē men moi prophrōn epesin kai khersin arēxein·",
+        "ē gar oiomai andra kholōsemen, os mega pantōn",
+        "argeiōn krateei kai oi peithontai akhaioi·",
+        "kreissōn gar basileus ote khōsetai andri kherēi·",
+        "ei per gar te kholon ge kai autēmar katapepsei,",
+        "alla te kai metopisthen ekhei koton, ophra telessei,",
+        "en stēthessin eoisi· su de phrasai ei me saōseis."
+      ],
+      "sanskrit": "यदि युद्धश्च रोगश्च युगपद् अखैयान् अभिभवतः, तर्हि अस्माकं विनाशो भविष्यति। अतः कञ्चिद् दैवज्ञं वा याजकं वा स्वप्नव्याख्यातारं वा पृच्छामः। स्वप्नोऽपि हि दिवः सकाशाद् आगच्छति। स अस्मभ्यं कथयेत्, किमर्थं फोइबः अपोल्लोनः एतावान् क्रुद्धः। किं स प्रार्थनायाः शतपशुयागस्य वा अभावं निन्दति? अथवा निर्दोषाणां मेषाणाम् अजाणां च मेदसा तुष्टः सन् अस्माकं विनाशं निवारयितुम् इच्छति?\n\nइत्युक्त्वा अखिल्लेउसः उपाविशत्। ततः पक्षिशकुनज्ञेषु श्रेष्ठः थेस्तोरपुत्रः काल्खासः उत्थितः। स भूतं वर्तमानं भविष्यच्च जानाति स्म। फोइबेन अपोल्लोनेन दत्तया दैवज्ञविद्यया स अखैयानां नौः इलियोननगरं प्रति नीतवान् आसीत्। स तेषां हितं चिन्तयन् एवम् अवदत्।\n\n“हे दिवः प्रिय अखिल्लेउस्, त्वं मां दूरेहेतेः प्रभोरपोल्लोनस्य मन्युं प्रकाशयितुम् आज्ञापयसि। अहं कथयिष्यामि। त्वं तु मम वचनं शृणु, शपथं च कुरु यत् वचसा हस्ताभ्यां च मां रक्षिष्यसि। अहं हि तादृशं नरं क्रोधयिष्यामीति मन्ये, यः सर्वेषाम् अर्गेयाणाम् अधिपतिः, यस्य आज्ञाम् अखैयाः अनुतिष्ठन्ति। स्वस्माद् दुर्बले नरे कुपितो राजा बलवत्तरः। स यदि तस्मिन्नेवाहनि क्रोधं निगृह्णीयात्, तथापि हृदये वैरं धारयति, यावत् तत् साधयति। अतः त्वं विचारय, मां रक्षिष्यसि वा।”",
+      "iast": "yadi yuddhaśca rogaśca yugapad akhaiyān abhibhavataḥ, tarhi asmākaṃ vināśo bhaviṣyati. ataḥ kañcid daivajñaṃ vā yājakaṃ vā svapnavyākhyātāraṃ vā pṛcchāmaḥ. svapno'pi hi divaḥ sakāśād āgacchati. sa asmabhyaṃ kathayet, kimarthaṃ phoibaḥ apollonaḥ etāvān kruddhaḥ. kiṃ sa prārthanāyāḥ śatapaśuyāgasya vā abhāvaṃ nindati? athavā nirdoṣāṇāṃ meṣāṇām ajāṇāṃ ca medasā tuṣṭaḥ san asmākaṃ vināśaṃ nivārayitum icchati?\n\nityuktvā akhilleusaḥ upāviśat. tataḥ pakṣiśakunajñeṣu śreṣṭhaḥ thestoraputraḥ kālkhāsaḥ utthitaḥ. sa bhūtaṃ vartamānaṃ bhaviṣyacca jānāti sma. phoibena apollonena dattayā daivajñavidyayā sa akhaiyānāṃ nauḥ iliyonanagaraṃ prati nītavān āsīt. sa teṣāṃ hitaṃ cintayan evam avadat.\n\n“he divaḥ priya akhilleus, tvaṃ māṃ dūreheteḥ prabhorapollonasya manyuṃ prakāśayitum ājñāpayasi. ahaṃ kathayiṣyāmi. tvaṃ tu mama vacanaṃ śṛṇu, śapathaṃ ca kuru yat vacasā hastābhyāṃ ca māṃ rakṣiṣyasi. ahaṃ hi tādṛśaṃ naraṃ krodhayiṣyāmīti manye, yaḥ sarveṣām argeyāṇām adhipatiḥ, yasya ājñām akhaiyāḥ anutiṣṭhanti. svasmād durbale nare kupito rājā balavattaraḥ. sa yadi tasminnevāhani krodhaṃ nigṛhṇīyāt, tathāpi hṛdaye vairaṃ dhārayati, yāvat tat sādhayati. ataḥ tvaṃ vicāraya, māṃ rakṣiṣyasi vā.”",
+      "english": "If war and plague together overcome the Achaeans, we may have to turn back if we are to escape death. Let us consult a seer, a priest, or an interpreter of dreams, for dreams too come from Zeus. Let someone tell us why Phoebus Apollo is so angry: does he fault a prayer or a hecatomb, or will the smoke of perfect lambs and goats persuade him to avert disaster from us?\nAfter speaking, Achilles sat down. Calchas, son of Thestor and foremost of bird-diviners, stood up. He knew what was, what would be, and what had been, and by Apollo's gift of prophecy had guided the Achaean ships to Ilium. Wishing them well, he addressed Achilles: You ask me to explain the anger of far-shooting Apollo. I will speak, but first promise to protect me in word and deed. I fear angering a man who rules all the Argives and whom the Achaeans obey. A king is stronger than a lesser man: he may swallow his anger today yet cherish a grudge until he carries it out. Consider whether you will protect me.",
+      "book": 1,
+      "first": 61,
+      "last": 83,
+      "sources": [
+        {
+          "label": "Homer, Iliad Book I: Greek lines 61–100",
+          "url": "https://primarytexts.org/homer/iliad/1/"
+        },
+        {
+          "label": "Homer Reader: Greek and English parallels",
+          "url": "https://homer.johnhboyer.com/iliad/book/1/?trans=compare"
+        },
+        {
+          "label": "Sāyaṇa on Taittirīya Saṃhitā 3.4.7",
+          "url": "https://vishvasa.github.io/vedAH_yajuH/taittirIyam/sArasvata-vibhAgaH/saMhitA/sAyaNaH/3/4/07/"
+        }
+      ]
+    },
+    {
+      "id": "1-84-100",
+      "title": "Achilles promises safety; Calchas reveals Apollo’s anger",
+      "range": "1.84–100",
+      "greek": [
+        "τὸν δʼ ἀπαμειβόμενος προσέφη πόδας ὠκὺς Ἀχιλλεύς·",
+        "θαρσήσας μάλα εἰπὲ θεοπρόπιον ὅ τι οἶσθα·",
+        "οὐ μὰ γὰρ Ἀπόλλωνα Διῒ φίλον, ᾧ τε σὺ Κάλχαν",
+        "εὐχόμενος Δαναοῖσι θεοπροπίας ἀναφαίνεις,",
+        "οὔ τις ἐμεῦ ζῶντος καὶ ἐπὶ χθονὶ δερκομένοιο",
+        "σοὶ κοίλῃς παρὰ νηυσί βαρείας χεῖρας ἐποίσει",
+        "συμπάντων Δαναῶν, οὐδʼ ἢν Ἀγαμέμνονα εἴπῃς,",
+        "ὃς νῦν πολλὸν ἄριστος Ἀχαιῶν εὔχεται εἶναι.",
+        "καὶ τότε δὴ θάρσησε καὶ ηὔδα μάντις ἀμύμων·",
+        "οὔ τʼ ἄρ ὅ γʼ εὐχωλῆς ἐπιμέμφεται οὐδʼ ἑκατόμβης,",
+        "ἀλλʼ ἕνεκʼ ἀρητῆρος ὃν ἠτίμησʼ Ἀγαμέμνων,",
+        "οὐδʼ ἀπέλυσε θύγατρα καὶ οὐκ ἀπεδέξατʼ ἄποινα,",
+        "τοὔνεκʼ ἄρʼ ἄλγεʼ ἔδωκεν ἑκηβόλος ἠδʼ ἔτι δώσει·",
+        "οὐδʼ ὅ γε πρὶν Δαναοῖσιν ἀεικέα λοιγὸν ἀπώσει",
+        "πρίν γʼ ἀπὸ πατρὶ φίλῳ δόμεναι ἑλικώπιδα κούρην",
+        "ἀπριάτην ἀνάποινον, ἄγειν θʼ ἱερὴν ἑκατόμβην",
+        "ἐς Χρύσην· τότε κέν μιν ἱλασσάμενοι πεπίθοιμεν."
+      ],
+      "roman": [
+        "ton dʼ apameibomenos prosephē podas ōkus akhilleus·",
+        "tharsēsas mala eipe theopropion o ti oistha·",
+        "ou ma gar apollōna dii philon, ō te su kalkhan",
+        "eukhomenos danaoisi theopropias anaphaineis,",
+        "ou tis emeu zōntos kai epi khthoni derkomenoio",
+        "soi koileis para nēusi bareias kheiras epoisei",
+        "sumpantōn danaōn, oudʼ ēn agamemnona eipeis,",
+        "os nun pollon aristos akhaiōn eukhetai einai.",
+        "kai tote dē tharsēse kai ēuda mantis amumōn·",
+        "ou tʼ ar o gʼ eukhōlēs epimemphetai oudʼ ekatombēs,",
+        "allʼ enekʼ arētēros on ētimēsʼ agamemnōn,",
+        "oudʼ apeluse thugatra kai ouk apedexatʼ apoina,",
+        "tounekʼ arʼ algeʼ edōken ekēbolos ēdʼ eti dōsei·",
+        "oudʼ o ge prin danaoisin aeikea loigon apōsei",
+        "prin gʼ apo patri philoi domenai elikōpida kourēn",
+        "apriatēn anapoinon, agein thʼ ierēn ekatombēn",
+        "es khrusēn· tote ken min ilassamenoi pepithoimen."
+      ],
+      "sanskrit": "तं शीघ्रपादः अखिल्लेउसः प्रत्युवाच। “निर्भयः सन् यत् दैववचनं जानासि तत् सर्वं कथय। दिवः प्रियस्य अपोल्लोनस्य शपथेन वदामि, यस्य प्रार्थनया त्वं दानाओइजनेभ्यः दैववचनानि प्रकाशयसि, मयि जीवति पृथिवीं पश्यति च सति, एतासां गर्भवतीनां नौकानां समीपे कोऽपि दानाओइजनः त्वयि हिंसार्थं हस्तं न प्रसारयिष्यति। अगमेम्नोनम् अपि यदि निर्दिशेः, तथापि न कश्चित् त्वां स्प्रक्ष्यति। स हि इदानीं स्वयम् अखैयानां श्रेष्ठतम इति घोषयति।”\n\nततः स निर्दोषो दैवज्ञः निर्भयो भूत्वा अवदत्। “न प्रार्थनाया अभावात्, न च शतपशुयागस्य अभावात् अपोल्लोनः अस्मासु कुपितः। किं तु याजकस्य अवमाननात्। अगमेम्नोनः तस्य दुहितरं न मुमोच, निष्क्रयधनं च न जग्राह। अत एव दूरेहेतिः अस्मभ्यं दुःखानि अदात्, पुनरपि दास्यति। स दानाओइजनेभ्यः एतां घोराम् आपदं न निवारयिष्यति, यावत् तां विशालाक्षीं कन्यां तस्य प्रियाय पित्रे मूल्यं विना निष्क्रयं विना च प्रत्यर्पयेम, क्रूसेनगरं च पवित्रं शतपशुयागं नयेम। ततः तं प्रसाद्य तस्य अनुग्रहं प्राप्नुयाम।”",
+      "iast": "taṃ śīghrapādaḥ akhilleusaḥ pratyuvāca. “nirbhayaḥ san yat daivavacanaṃ jānāsi tat sarvaṃ kathaya. divaḥ priyasya apollonasya śapathena vadāmi, yasya prārthanayā tvaṃ dānāoijanebhyaḥ daivavacanāni prakāśayasi, mayi jīvati pṛthivīṃ paśyati ca sati, etāsāṃ garbhavatīnāṃ naukānāṃ samīpe ko'pi dānāoijanaḥ tvayi hiṃsārthaṃ hastaṃ na prasārayiṣyati. agamemnonam api yadi nirdiśeḥ, tathāpi na kaścit tvāṃ sprakṣyati. sa hi idānīṃ svayam akhaiyānāṃ śreṣṭhatama iti ghoṣayati.”\n\ntataḥ sa nirdoṣo daivajñaḥ nirbhayo bhūtvā avadat. “na prārthanāyā abhāvāt, na ca śatapaśuyāgasya abhāvāt apollonaḥ asmāsu kupitaḥ. kiṃ tu yājakasya avamānanāt. agamemnonaḥ tasya duhitaraṃ na mumoca, niṣkrayadhanaṃ ca na jagrāha. ata eva dūrehetiḥ asmabhyaṃ duḥkhāni adāt, punarapi dāsyati. sa dānāoijanebhyaḥ etāṃ ghorām āpadaṃ na nivārayiṣyati, yāvat tāṃ viśālākṣīṃ kanyāṃ tasya priyāya pitre mūlyaṃ vinā niṣkrayaṃ vinā ca pratyarpayema, krūsenagaraṃ ca pavitraṃ śatapaśuyāgaṃ nayema. tataḥ taṃ prasādya tasya anugrahaṃ prāpnuyāma.”",
+      "english": "Swift-footed Achilles replied: Speak confidently whatever divine message you know. By Apollo, beloved of Zeus, whom you invoke when revealing divine counsels to the Danaans, no Danaan will lay a heavy hand upon you by the hollow ships while I am alive and see the earth, not even if you name Agamemnon, who now boasts that he is greatest among the Achaeans.\nThe blameless seer then took courage: Apollo does not blame our prayers or hecatombs. He is angry because Agamemnon dishonored his priest, did not release his daughter, and did not accept the ransom. For that reason the far-shooter has sent, and will continue to send, suffering. He will not turn the terrible plague away from the Danaans until we return the bright-eyed girl to her dear father, without price or ransom, and bring a sacred hecatomb to Chryse. Then perhaps we may appease him.",
+      "book": 1,
+      "first": 84,
+      "last": 100,
+      "sources": [
+        {
+          "label": "Homer, Iliad Book I: Greek lines 61–100",
+          "url": "https://primarytexts.org/homer/iliad/1/"
+        },
+        {
+          "label": "Homer Reader: Greek and English parallels",
+          "url": "https://homer.johnhboyer.com/iliad/book/1/?trans=compare"
+        },
+        {
+          "label": "Sāyaṇa on Taittirīya Saṃhitā 3.4.7",
+          "url": "https://vishvasa.github.io/vedAH_yajuH/taittirIyam/sArasvata-vibhAgaH/saMhitA/sAyaNaH/3/4/07/"
+        }
+      ]
     }
   ],
   "notes": [
