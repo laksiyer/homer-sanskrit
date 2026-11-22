@@ -172,3 +172,14 @@ Source: [Greek line 1.50](https://homer.johnhboyer.com/iliad/book/1/?loc=1.50)
 
 **Greek source:** [Homer, Iliad 1.39 (Venetus A)](https://www.homermultitext.org/docs/venetus-a/12v/).
 
+
+
+## ἀργυρέοιο βιοῖο · रजतधनुषः · Iliad 1.49
+
+**Homeric context:** Apollo’s **silver bow**, Greek **ἀργυρέοιο βιοῖο**, is represented in Sanskrit by **रजतधनुषः**.
+
+**Vedic parallel:** Atharvaveda (Śaunaka) 11.2.12 describes Rudra’s **golden bow**, **धनुर्बिभर्षि हरितं हिरण्ययम्**, and his divine arrow, **रुद्रस्येषुश्चरति देवहेतिः**. Both Apollo and Rudra are depicted as powerful divine archers; the bow is silver in Homer and golden in the Atharvaveda.
+
+**Status:** Poetic and religious parallel, not established lexical cognacy or deity identity.
+
+Sources: [Homer, *Iliad* 1.49](https://homer.johnhboyer.com/iliad/book/1/?loc=1.49) · [Atharvaveda (Śaunaka) 11.2](https://www.vedicsamhita.in/vedas/atharvaveda/11/2)
